@@ -23,8 +23,12 @@ document.write('<h2 style="color: blue;">Recuperando valores e concatenação</h
 // console.log(nome); 
 
 
-// 1ª Digitação (Aqui)
+document.write("<strong>Meu nome é: </strong> "+nome+"<br> ")
+document.write("<strong>Meu nome é: </strong> "+ano+"<br> ")
+document.write("<strong>Meu nome é: </strong> "+curso+"<br> ")
 
+// Concatenação
+document.write(`Eu sou o: <strong>${nome}</strong> e em: <strong> ${ano}</strong> estou estudando o curso <strong>${curso}</strong>.<br>`)
 
 
 document.write("__________________________________________________________________<br>");
@@ -36,7 +40,7 @@ document.write("________________________________________________________________
 // String literal/ Template String (Usando a crase)
 document.write('<h2 style="color: blue;">String literal/ Template String (Usando a crase)</h2><br>');
 
-// 2ª Digitação (Aqui)
+
 
 
 document.write("__________________________________________________________________<br>");
@@ -63,4 +67,7 @@ let quantidade = 3;
 let total = preco * quantidade;
 
 
-// 3ª Digitação (Aqui)
+document.write(`Temos atualmente no estoque o produto: <strong>${produto}</strong> <br>`)
+document.write(`Custando: <strong>${preco}</strong> <br>`)
+document.write(`Temos atualmente no estoque o produto: <strong>${quantidade}</strong> <br>`)
+document.write(`Temos atualmente no estoque o produto: <strong>${total}</strong> <br>`)
